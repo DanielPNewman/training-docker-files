@@ -1,5 +1,14 @@
 # training-docker-files
-### Files for making a Docker image for model training using Python3.6, xgboost, fastText and other data science tools
+
+This docker image was made to help with my data science work flow. Specifically it allows me to quickly and easily set up my prefered tooling/packages (`python`, `xgboost`, etc) with required versions on in a container other machines.
+
+The docker image can be pulled as is from directly from [my public docker repo](https://hub.docker.com/r/danielpnewman/training-tools/) using terminal command:
+
+- `docker pull danielpnewman/training-tools`
+
+Alternatively you can update my docker files and rebuild your own image using the steps below. :-) 
+
+### Files for making a docker image for model training using Python3.6, xgboost, fastText and other data science tools
 
 1. If needed update the [Dockerfile](Dockerfile) with required software.
 
