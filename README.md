@@ -6,7 +6,7 @@ The docker image can be pulled as is from directly from [my public docker repo](
 
 - `docker pull danielpnewman/training-tools`
 
-Alternatively you can update my docker files and rebuild your own image using the steps below. :-) 
+Alternatively you can update my docker files and rebuild your own image using the steps below. :-)
 
 ### Files for making a docker image for model training using Python3.6, xgboost, fastText and other data science tools
 
@@ -27,6 +27,9 @@ Alternatively you can update my docker files and rebuild your own image using th
 
 		- `docker run --interactive --tty  --volume $(pwd)/to-mount:/training/to-mount --volume $(pwd)/scripts:/training/scrips danielpnewman/training-tools`
 
-5. Push updated docker image to docker hub:
+5.  You can close the terminal of an active docker session and then log back into it later using its CONTAINER ID, e.g:
 
-	- `docker push danielpnewman/training-tools`
+ 	- `exec -it d40b2796e7ca /bin/bash`
+
+To push updated docker image to docker hub:
+ `docker push danielpnewman/training-tools`
