@@ -10,6 +10,7 @@ COPY pip_req_frozen.txt requirements.txt
 # pip install
 RUN pip install -r requirements.txt
 
+#install fastText
 RUN git clone https://github.com/facebookresearch/fastText.git && cd fastText && make
 
 ENTRYPOINT /bin/bash
