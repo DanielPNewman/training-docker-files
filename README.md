@@ -1,6 +1,6 @@
 # training-docker-files
 
-This docker image was made to help with my data science work flow. Specifically it allows me to quickly and easily set up my prefered tooling/packages (`python`, `xgboost`, etc) with required versions on in a container other machines.
+This docker image was made to help with my data science work flow. Specifically it allows me to quickly and easily set up the required versions of my tooling/packages (`python`, `xgboost`, `fastText` etc.) in a container on other machines.
 
 The docker image can be pulled as is from directly from [my public docker repo](https://hub.docker.com/r/danielpnewman/training-tools/) using terminal command:
 
