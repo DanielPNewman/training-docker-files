@@ -1,5 +1,5 @@
 # training-docker-files
-###Files for making a Docker image for model training using Python3.6, xgboost, fastText and other data science tools
+### Files for making a Docker image for model training using Python3.6, xgboost, fastText and other data science tools
 
 1. If needed update the [Dockerfile](Dockerfile) with required software.
 
@@ -10,13 +10,13 @@
 	- `cd training-docker-files`  
 	- `docker build -t danielpnewman/training-tools .`
 
-4. Put training data, scripts etc. in `/to-mount` directory and then mount it into the docker container when you build it using this command:
+4. Put training data, scripts etc. into local `/to-mount` directory and then mount it into the docker container when you build it using this command:
 
 	- `docker run --interactive --tty  --volume $(pwd)/to-mount:/training/to-mount danielpnewman/training-tools`
 
-Note you can mount multiple directories:
+	- Note you can mount multiple directories:
 
-	- `docker run --interactive --tty  --volume $(pwd)/to-mount:/training/to-mount --volume $(pwd)/scripts:/training/scrips danielpnewman/training-tools`
+		- `docker run --interactive --tty  --volume $(pwd)/to-mount:/training/to-mount --volume $(pwd)/scripts:/training/scrips danielpnewman/training-tools`
 
 5. Push updated docker image to docker hub:
 
