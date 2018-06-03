@@ -13,4 +13,6 @@ RUN pip install -r requirements.txt
 #install fastText
 RUN git clone https://github.com/facebookresearch/fastText.git && cd fastText && make
 
+# Next need to set R up in the image, try: https://cran.r-project.org/bin/linux/debian/ or https://github.com/Kaggle/docker-rstats/blob/master/Dockerfile
+
 ENTRYPOINT /bin/bash
