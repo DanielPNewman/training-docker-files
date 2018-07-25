@@ -84,4 +84,4 @@ RUN apt-get update \
 RUN Rscript -e "install.packages('partykit')"
 
 # start image at command line
-ENTRYPOINT /bin/bash
+CMD /bin/bash
