@@ -86,3 +86,7 @@ RUN Rscript -e "install.packages('partykit')"
 
 # start image at command line
 CMD /bin/bash
+
+# Add Users
+RUN useradd -m aips-jobs
+USER aips-jobs
