@@ -4,12 +4,13 @@ FROM python:3.6
 RUN mkdir /training
 WORKDIR /training
 
-ENV RAW_DATA_PATH=/training/category-prediction-model/data/raw-data
+#ENV RAW_DATA_PATH=/training/category-prediction-model/data/raw-data
 
 # Copying requirements.txt file
 COPY pip_req_frozen.txt requirements.txt
 
 # pip install
+#RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # install fastText
