@@ -67,4 +67,12 @@ wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.14.1
 widgetsnbextension==3.2.1
-xgboost==0.72
+boto3==1.7.63
+botocore==1.10.63
+docutils==0.14
+jmespath==0.9.3
+s3transfer==0.1.13
+future==0.16.0
+pyhive==0.6.0
+pyyaml==3.13
+xgboost==0.72.1
