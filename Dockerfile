@@ -90,3 +90,6 @@ CMD /bin/bash
 # Add Users
 RUN useradd -m aips-jobs
 USER aips-jobs
+
+# Set time zone
+ENV TZ Australia/Melbourne
