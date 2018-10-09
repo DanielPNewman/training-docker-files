@@ -76,3 +76,4 @@ future==0.16.0
 pyhive==0.6.0
 pyyaml==3.13
 xgboost==0.72.1
+PyICU==2.1
