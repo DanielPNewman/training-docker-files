@@ -12,7 +12,7 @@ Alternatively you can update my docker files and rebuild your own image using th
 
 1. If needed update the [Dockerfile](Dockerfile) with required software.
 
-2. If needed update [pip-req-frozen](pip_req_frozen.txt) with required python packages.
+2. If needed update [requirements](requirements.txt) with required python packages.
 
 3. Build local docker image from Dockerfile in ~/training-docker-files directory, this code tags the image as as "danielpnewman/training-tools":
 
