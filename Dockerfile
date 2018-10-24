@@ -12,7 +12,7 @@ RUN svn export http://source.icu-project.org/repos/icu/tags/release-62-1/icu4c &
 ENV LD_LIBRARY_PATH /usr/local/lib
 
 # Copying requirements.txt file
-COPY pip_req_frozen.txt requirements.txt
+COPY requirements.txt requirements.txt
 
 # pip install
 RUN pip install --upgrade pip
@@ -98,8 +98,8 @@ RUN Rscript -e "install.packages('partykit')"
 CMD /bin/bash
 
 # Add Users
-RUN useradd -m aips-jobs
-USER aips-jobs
+RUN useradd -m dan-the-man
+USER dan-the-man
 
 # Set time zone
 ENV TZ Australia/Melbourne
