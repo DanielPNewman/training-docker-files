@@ -74,6 +74,6 @@ jmespath==0.9.3
 s3transfer==0.1.13
 future==0.16.0
 pyhive==0.6.0
-pyyaml==3.13
+pyyaml==5.1
 xgboost==0.72.1
 PyICU==2.1
