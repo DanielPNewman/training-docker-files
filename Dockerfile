@@ -24,7 +24,7 @@ RUN pip install --upgrade cython && \
     pip install pyfasttext
 
 # install fastText
-RUN git clone https://github.com/facebookresearch/fastText.git && cd fastText && make
+#RUN git clone https://github.com/facebookresearch/fastText.git && cd fastText && make
 
 # install nano
 RUN apt-get update && apt-get install nano
