@@ -39,7 +39,7 @@ pexpect==4.6.0
 pickleshare==0.7.4
 plotnine==0.3.0
 prompt-toolkit==1.0.15
-protobuf==3.5.2.post1
+protobuf==3.6.1
 ptyprocess==0.5.2
 pyarrow==0.11.1
 Pygments==2.2.0
@@ -57,7 +57,7 @@ Send2Trash==1.5.0
 simplegeneric==0.8.1
 six==1.11.0
 statsmodels==0.9.0
-tensorboard==1.8.0
+tensorboard==1.12.0
 tensorflow==1.12.2
 termcolor==1.1.0
 terminado==0.8.1
@@ -78,10 +78,10 @@ xgboost==0.72.1
 PyGreSQL==5.0.4
 pybind11==2.2.2
 PyICU==2.1
-awscli==1.16.140
+awscli==1.16.215
 boto==2.48.0
 pyathena==1.4.3
 boto3==1.9.130
-botocore==1.12.130
+botocore==1.12.205
 tqdm==4.11.2
 mlxtend==0.15.0.0
