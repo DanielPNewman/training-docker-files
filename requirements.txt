@@ -64,7 +64,7 @@ pyasn1==0.4.6
 PyAthena==1.4.3
 pybind11==2.2.2
 pyfasttext==0.4.6
-Pygments==2.2.0
+Pygments==2.7.4
 PyGreSQL==5.0.4
 PyHive==0.6.0
 PyICU==2.1
